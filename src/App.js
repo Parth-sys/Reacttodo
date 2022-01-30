@@ -87,7 +87,7 @@ const tasklist = tasks
 
   return (
     <div className="todoapp stack-large">
-      <h1></h1>
+     
        
        <Form  addTask={addTask}  ></Form>
 
@@ -100,11 +100,8 @@ const tasklist = tasks
         {headingText}
       </h2>
       <ul
-        role="list"
         className="todo-list stack-large stack-exception"
-        aria-labelledby="list-heading"
-       
-      >
+        aria-labelledby="list-heading">
        {tasklist}
       </ul>
     </div>
