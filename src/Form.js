@@ -28,6 +28,7 @@ const[name,setName]=useState('');
         autoComplete="off"
         value={name}
         onChange={handleChange}
+        placeholder="New"
       />
      { /* <button type="submit" className="btn btn-primary"  >
         Add
