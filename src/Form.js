@@ -29,9 +29,9 @@ const[name,setName]=useState('');
         value={name}
         onChange={handleChange}
       />
-      <button type="submit" className="btn btn-primary"  >
+     { /* <button type="submit" className="btn btn-primary"  >
         Add
-      </button>
+  </button> */ }
     </form>
   );
 }
